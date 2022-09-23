@@ -1,9 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\client",
-    "\\client\\src",
-    "\\server"
+    "\\client_folder",
+    "\\client_folder\\src",
+    "\\server_folder"
   ],
+  "SelectedNode": "\\client_folder\\src\\App.css",
   "PreviewInSolutionExplorer": false
 }
