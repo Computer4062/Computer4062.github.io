@@ -15,7 +15,7 @@ app.use(express.urlencoded({extended:false}))
 
 app.get('/', async (req, res) => {
     const codes = await Codes.find().sort({date:'desc'})
-    res.render('index', {codes:codes})
+    res.render('public/index', {codes:codes})
 })
 
 app.use('/code', router)
